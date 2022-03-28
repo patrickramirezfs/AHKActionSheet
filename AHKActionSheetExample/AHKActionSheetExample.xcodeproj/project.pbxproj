@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55212CC827DB2D70008CBA5E /* AHKActionSheet.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55212CC727DB2D70008CBA5E /* AHKActionSheet.storyboard */; };
 		A618482818FBDC2F005EA537 /* UIWindow+AHKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A618482718FBDC2F005EA537 /* UIWindow+AHKAdditions.m */; };
 		A67A09F318F5665C0085FA8D /* AHKActionSheetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A67A09F218F5665B0085FA8D /* AHKActionSheetViewController.m */; };
 		A6BA55B418F3F7840009AC11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6BA55B318F3F7840009AC11 /* Foundation.framework */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		55212CC727DB2D70008CBA5E /* AHKActionSheet.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AHKActionSheet.storyboard; sourceTree = "<group>"; };
 		A618482618FBDC2F005EA537 /* UIWindow+AHKAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+AHKAdditions.h"; sourceTree = "<group>"; };
 		A618482718FBDC2F005EA537 /* UIWindow+AHKAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+AHKAdditions.m"; sourceTree = "<group>"; };
 		A67A09F118F5665B0085FA8D /* AHKActionSheetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AHKActionSheetViewController.h; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 				A6BA55C918F3F7840009AC11 /* AHKViewController.m */,
 				A6BA55CB18F3F7840009AC11 /* Images.xcassets */,
 				A6BA55BA18F3F7840009AC11 /* Supporting Files */,
+				55212CC727DB2D70008CBA5E /* AHKActionSheet.storyboard */,
 			);
 			path = AHKActionSheetExample;
 			sourceTree = "<group>";
@@ -236,7 +239,7 @@
 			};
 			buildConfigurationList = A6BA55AB18F3F7840009AC11 /* Build configuration list for PBXProject "AHKActionSheetExample" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -261,6 +264,7 @@
 				A6BA55CC18F3F7840009AC11 /* Images.xcassets in Resources */,
 				A6BA55BE18F3F7840009AC11 /* InfoPlist.strings in Resources */,
 				A6BA55C718F3F7840009AC11 /* Main.storyboard in Resources */,
+				55212CC827DB2D70008CBA5E /* AHKActionSheet.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,7 +372,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -400,7 +404,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -410,7 +414,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ANALYZER_SECURITY_FLOATLOOPCOUNTER = YES;
 				CLANG_ANALYZER_SECURITY_INSECUREAPI_RAND = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
@@ -427,7 +430,7 @@
 				GCC_WARN_UNUSED_LABEL = YES;
 				GCC_WARN_UNUSED_PARAMETER = NO;
 				INFOPLIST_FILE = "AHKActionSheetExample/AHKActionSheetExample-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				OTHER_CFLAGS = (
 					"-Wextra",
 					"-Wno-unused-parameter",
@@ -443,7 +446,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ANALYZER_SECURITY_FLOATLOOPCOUNTER = YES;
 				CLANG_ANALYZER_SECURITY_INSECUREAPI_RAND = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
@@ -460,7 +462,7 @@
 				GCC_WARN_UNUSED_LABEL = YES;
 				GCC_WARN_UNUSED_PARAMETER = NO;
 				INFOPLIST_FILE = "AHKActionSheetExample/AHKActionSheetExample-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				OTHER_CFLAGS = (
 					"-Wextra",
 					"-Wno-unused-parameter",
